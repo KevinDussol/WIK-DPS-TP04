@@ -4,6 +4,7 @@ metadata:
   name: my-nginx-ingress
   namespace: test-pod
 spec:
+  ingressClassName: nginx
   rules:
   - host: my-app-test.com
     http:
